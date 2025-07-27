@@ -17,20 +17,20 @@ function App() {
   return (
     // <DemoApp/>
     // <DarkLightTheme/>
-    // <ToDoListApp/>
+    <ToDoListApp/>
     // <Navigation/>
     // <ComponentA/>
 
-    <BrowserRouter>
-     <Routes>
-        <Route path='/' element={<UserName/>}></Route>
-        <Route path='/userdepartment' element={<UserDepartment/>}></Route>
-        <Route path='/userage' element={<UserAge/>}></Route>
-        <Route path='/useremail' element={<UserEmail/>}></Route>
-        <Route path='/userlocation' element={<UserLocation/>}></Route>
-        <Route path='/summary' element={<Summary/>}></Route>
-      </Routes>
-      </BrowserRouter>
+    // <BrowserRouter>
+    //  <Routes>
+    //     <Route path='/' element={<UserName/>}></Route>
+    //     <Route path='/userdepartment' element={<UserDepartment/>}></Route>
+    //     <Route path='/userage' element={<UserAge/>}></Route>
+    //     <Route path='/useremail' element={<UserEmail/>}></Route>
+    //     <Route path='/userlocation' element={<UserLocation/>}></Route>
+    //     <Route path='/summary' element={<Summary/>}></Route>
+    //   </Routes>
+    //   </BrowserRouter>
 
   );
 }
